@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #6395ef; 
+    font-family: 'Montserrat', sans-serif !important; /* overrides all the fonts using !important*/
+
+}
+/* .todo-wrapper{
+    height: 500px;
+    width:600px;
+    margin:auto;
+    background-color: blue;
+    box-sizing: border-box;
+    margin-top: 110px;
+    border: 1px solid red;
+    border-radius: 25px;
+} */
+.container{
+    background-color: red;
+    display:flex;
+    justify-content: center; /* aligning all the content of div to center*/
+    align-items: center;
+    flex: 1;
+    
+}
+.todo-wrapper{
+    background-color: #011565;
+    width: 600px;
+    min-height:400px;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 30px;
+
+}
+.todo-wrapper h1{
+    text-align: center;
+    color:white;
+}
+.form{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.form input{
+    outline: none;
+    height: 30px;
+    width: 300px;
+    font-size: 20px ;
+
+}
+#addTask {
+    background-color: red;
+    outline: none;
+    border: 0;
+    font-size: 16px;    
+    color: white;
+    /* flex:0.25;  */
+    cursor: pointer;
+    padding: 0 15px 0 15px;
+}
+
+.list{
+    color: white;
+    width: 65%;
+    display: block;
+    margin: 50px auto;
+}
+
+#item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#item button{
+    outline: none;
+    background-color: yellow;
+    border: 0px;
+    padding: 6px 10px;
+    cursor: pointer;
+
+}
